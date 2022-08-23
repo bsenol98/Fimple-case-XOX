@@ -1,0 +1,42 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn-reset {
+    width: 29rem;
+    margin: auto;
+    display: block;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-weight: 900;
+    font-size: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    justify-content: center;
+    place-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.box {
+    background-color: rgb(191 191 191);
+    border-radius: 1rem;
+    height: 9rem;
+    width: 9rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    line-height: 9rem;
+    text-align: center;
+    color: #fff;
+    font-size: 7rem;
+}
